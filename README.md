@@ -54,7 +54,7 @@ Below is a curated comparison of leading SaaS claims management platforms, sorte
 
 ## 💻 Open-Source Claims Systems & Projects
 
-Explore production-grade open-source tools, AI agent frameworks, and reference architectures for claims management. **Sorted by GitHub Stars (Descending)**. ⭐
+Explore production-grade open-source tools, AI agent frameworks, and reference architectures for claims management. **Sorted by GitHub_Stars (Descending)**. ⭐
 
 - **[openIMIS](https://github.com/openimis)** [![openIMIS Stars](https://img.shields.io/github/stars/openimis?style=social&color=white)](https://github.com/openimis/stargazers)  
   🏥 **Digital Public Goods Certified Health Insurance Claims Platform**. Purpose-built for social health protection and health financing schemes. Features digital claims creation, submission, and automated adjudication with an **AI-assisted claim review module**. Interoperable with HL7 FHIR, DCI, OpenMRS, and DHIS2. *Deployed in 13+ countries serving 25.5M+ beneficiaries.* 🌍 (Open Source / MPL 2.0)
