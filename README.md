@@ -1,227 +1,141 @@
-# Awesome-Claims-Management
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Claims Management Ecosystem Banner" width="100%">
+</p>
 
-# 顶级理赔管理平台生态系统
+# 🚀 Awesome Claims Management Ecosystem
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+> **A curated ecosystem of top SaaS platforms, AI claims automation tools, and open-source claims processing systems for insurance carriers, MGAs, TPAs, and claims adjusters.** 📊 Seamlessly handle First Notice of Loss (FNOL), claims adjudication, fraud detection, medical coding, and digital payouts across P&C (Property & Casualty), Health, Auto, and Life insurance lines.
 
-**精选 SaaS 产品与开源 GitHub 项目列表**
-
-*聚焦理赔受理、调查工作流、欺诈检测与理赔支付*
-
-**最后更新：2026 年 9 月**
-
-
-
-本仓库追踪**理赔管理**领域的知名 **SaaS 平台**与**开源项目**。这些工具帮助保险公司、MGA 和理赔团队管理从 FNOL（首次损失通知）到结算支付的完整理赔生命周期，涵盖财产险、意外险、健康险和人寿险。
-
-
-
-**示例**包括 Guidewire、Duck Creek Technologies、Snapsheet、ClaimCenter、OneShield、Origami Risk、Claimatic、Mitchell、Symbility、FileHandler、Sapiens Claims、Majesco Claims 和 One Inc ClaimsPay（该领域的领先者）。
-
-
-
-**开源重点**：理赔管理领域拥有**正在发展的开源生态**。**Openkoda** 是定位为财产险和意外险保险公司的开源平台，包含预构建的理赔管理模块 。**openIMIS** 是数字公共产品认证的开源健康保险理赔管理系统，已在 13+ 个国家部署，服务超过 2550 万受益人 。此外，多个 GitHub 项目提供理赔工作流、欺诈检测和 FNOL 的参考实现。本列表重点收录这些可自托管的生产级方案。
-
-
-
-欢迎贡献！提交 PR 以添加/更新条目。保持描述事实性，并链接到官方网站。
-
-
-
-## 目录
-
-
-
-- [SaaS/托管平台](#saas托管平台)
-
-- [开源 GitHub 项目](#开源github项目)
-
-- [如何贡献](#如何贡献)
-
-- [免责声明](#免责声明)
-
-
-
-## SaaS/托管平台
-
-
-
-- **[Guidewire ClaimCenter](https://www.guidewire.com/)**
-
-  财产险和意外险理赔管理的行业标准。提供端到端理赔生命周期管理、工作流自动化、欺诈检测和供应商管理。与 Guidewire InsuranceSuite 深度集成。
-
-
-
-- **[Duck Creek Claims](https://www.duckcreek.com/)**
-
-  财产险理赔管理平台。提供 FNOL、理赔受理、调查和结算工作流，支持配置驱动的业务流程。
-
-
-
-- **[Snapsheet](https://www.snapsheetclaims.com/)**
-
-  云端理赔管理平台，以汽车物理损伤理赔起家。提供虚拟评估、理赔工作流自动化和支付处理。
-
-
-
-- **[OneShield](https://oneshield.com/)**
-
-  保险理赔和保单管理平台。提供配置驱动的理赔工作流、规则引擎和实时决策能力。
-
-
-
-- **[Origami Risk](https://www.origamirisk.com/)**
-
-  风险管理信息系统 (RMIS) 平台，包含理赔管理模块。专注于企业风险、安全和理赔工作流。
-
-
-
-- **[Claimatic](https://claimatic.com/)**
-
-  智能化理赔路由和分配平台。使用 AI 将理赔分配给最合适的理算师，优化资源利用。
-
-
-
-- **[Mitchell](https://www.mitchell.com/)**
-
-  汽车物理损伤理赔解决方案提供商。提供评估、维修估算和工作流管理工具。
-
-
-
-- **[Symbility](https://www.symbilitysolutions.com/)**
-
-  财产险理赔解决方案（现为 CoreLogic 的一部分）。提供移动理赔、估算和工作流管理。
-
-
-
-- **[FileHandler](https://www.filehandler.com/)**
-
-  理赔管理平台，专注于财产险和意外险。提供 FNOL、工作流和支付功能。
-
-
-
-- **[Sapiens Claims](https://sapiens.com/)**
-
-  保险理赔管理解决方案，支持财产险、意外险和人寿险。提供配置驱动的理赔工作流。
-
-
-
-- **[Majesco Claims](https://majesco.com/)**
-
-  保险理赔管理平台，与 Majesco 核心保险套件集成。支持配置驱动的理赔流程。
-
-
-
-- **[One Inc ClaimsPay](https://www.oneincsystems.com/)**
-
-  理赔支付平台，专注于数字支付和理赔结算。
-
-
-
-## 开源 GitHub 项目
-
-
-
-- **[Openkoda](https://github.com/openkoda/openkoda)**
-
-  开源财产险和意外险保险平台，包含预构建的**理赔管理模块**。基于 Java、Spring Boot 和 PostgreSQL，提供可视化仪表板构建器、数据模型构建器、自动生成的 REST 和 GraphQL API、文档生成、数据分析、业务流程自动化和多租户支持 。**MIT 许可**（核心），企业版提供 AI 报告和高级多租户。活跃开发中。
-
-
-
-- **[openIMIS](https://github.com/openimis)**
-
-  数字公共产品认证的**开源健康保险理赔管理**平台。专为社会健康保护和健康融资项目设计，支持理赔的数字创建、提交和审核，包括 **AI 支持的理赔审核模块** 。已在尼泊尔、坦桑尼亚等 13+ 个国家部署，服务超过 2550 万受益人 。基于国际标准（HL7 FHIR、DCI），可与 DHIS2 和 OpenMRS 互操作。**开源**，社区驱动开发。
-
-
-
-- **[MediPolicy_IQ](https://github.com/ganesh2005-G/MediPolicy_IQ)**
-
-  企业级 AI 驱动的**健康保险理赔智能平台**。自动化完整理赔生命周期：理赔裁定、资格验证、动态政策规则评估、OCR 发票和处方提取、医疗编码 (ICD-10/CPT) 检查、多政策协调福利 (COB)、理赔决策、欺诈风险评分 (0-100) 和 RAG 政策问答助手 。FastAPI + Streamlit，Docker 部署。**MIT 许可**。
-
-
-
-- **[ClaimSphere AI](https://github.com/palsure/claimsphere-ai)**
-
-  多代理 AI 理赔处理系统。使用 CAMEL-AI 代理框架进行文档提取、验证、欺诈检测和重复检测。支持 OCR（PaddleOCR）、ERNIE 5.0 Thinking API 和自动审批工作流 。**开源**。
-
-
-
-- **[Insurance Agentic Mesh](https://github.com/vishalmysore/insuranceagenticmesh)**
-
-  100% Java 的保险领域 AI 代理网格。包含独立的**理赔处理服务器**（端口 7872），提供理赔提交、状态跟踪、审批/拒绝和支付处理 。基于 MCP 和 A2A 协议，Spring Boot 3.2.4。**开源**。
-
-
-
-- **[Digital Claims Management System](https://github.com/nikithagottimukkula/Digital-Claims-Management-System)**
-
-  企业级保险理赔管理应用。React + Spring Boot (或 Node.js) on AWS。支持安全理赔提交、多步骤表单、S3 文档上传、实时状态跟踪、理算师和主管的基于角色的工作流、审计日志和 SLA 监控 。**开源**。
-
-
-
-- **[Insurance Analytics Platform](https://github.com/aathifpm/insurance-analytics)**
-
-  综合理赔管理分析平台。包含理赔提交和跟踪、文档上传、实时状态更新、**ML 驱动的欺诈检测**（Scikit-learn）和管理审批工作流 。React 18 + Python Flask。**MIT 许可**。
-
-
-
-- **[车险理赔流程系统](https://github.com/NotMakerWebSite/loIcMUBBjzoR)**
-
-  中文车险理赔流程系统。支持普通用户、事故调查员和管理员三种角色。功能包括保险订单、调查申请、事故调查、现场勘查和理赔申请管理 。Java/Spring Boot + Vue + MySQL。**开源**。
-
-
-
-### 其他强开源选项
-
-
-
-- **P&C 理赔平台**：**Openkoda**（MIT，理赔模块预构建）。
-
-- **健康险理赔**：**openIMIS**（数字公共产品，13+ 国家部署），**MediPolicy_IQ**（AI 驱动，COB 支持）。
-
-- **AI 理赔处理**：**ClaimSphere AI**（多代理，CAMERA-AI），**Insurance Agentic Mesh**（Java 代理网格）。
-
-- **参考实现**：**Digital Claims Management System**（AWS 部署），**Insurance Analytics**（ML 欺诈检测）。
-
-
-
-**构建自定义系统的框架**：结合 **Openkoda** 作为 P&C 理赔的核心平台，**openIMIS** 用于健康险理赔，**ClaimSphere AI** 或 **Insurance Agentic Mesh** 引入 AI 驱动的文档处理和欺诈检测能力。添加 **PostgreSQL** 用于持久化，**Docker** 用于部署。
-
-
-
-## 如何贡献
-
-
-
-1. Fork 仓库。
-
-2. 在 `README.md` 中添加/编辑条目（遵循现有格式）。
-
-3. 包含：名称、链接、1-2 句描述，以及是 SaaS 还是开源。
-
-4. 提交 PR 并附简短说明。
-
-
-
-如果你觉得这个仓库有用，请点星！
-
-
-
-## 免责声明
-
-
-
-- 这是一个**社区精选**列表——并非详尽无遗，也不构成认可。
-
-- 理赔管理平台处理敏感的财务和健康数据；确保符合相关保险法规、数据保护法律和理赔合规要求。
-
-- **开源现实**：理赔管理的开源生态**正在成熟**。**Openkoda** 提供 P&C 理赔的预构建模块 ，**openIMIS** 是健康险理赔的生产级数字公共产品 。然而，**完整的理赔管理功能**（FNOL 工作流、理算师分配、供应商管理、支付集成、监管报告）在开源方案中仍需大量自定义开发。商业平台（Guidewire、Duck Creek、Snapsheet）仍主导企业级部署。
-
-
+**📅 Last updated:** September 2026
 
 ---
 
+## 📌 Table of Contents
 
+- [📈 Market Size & Industry Dynamics](#-market-size--industry-dynamics)
+- [🏢 SaaS & Cloud Claims Platforms](#-saas--cloud-claims-platforms)
+- [💻 Open-Source Claims Systems & Projects](#-open-source-claims-systems--projects)
+- [💡 Custom Claims Architecture Framework](#-custom-claims-architecture-framework)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
 
-**为理赔经理、理算师、保险技术团队和 MGA 运营商打造。**
+---
 
-让理赔管理更开放、透明、高效。
+## 📈 Market Size & Industry Dynamics
+
+The global **Claims Management Software Market** is estimated at **$43.58 Billion in 2024–2025** and is projected to reach **$103+ Billion by 2035** (growing at a CAGR of ~8.5%). The market structure is **moderately fragmented**: enterprise P&C core administration is heavily concentrated around market leaders (e.g., Guidewire, Duck Creek), while specialized sub-sectors (such as AI fraud detection, auto physical damage assessment, and healthcare claim adjudication) are highly fragmented with rapid innovation from InsurTech startups and open-source initiatives. 🌐
+
+---
+
+## 🏢 SaaS & Cloud Claims Platforms
+
+Below is a curated comparison of leading SaaS claims management platforms, sorted by **company scale (Annual Revenue / Market Valuation, Descending)**. 💰
+
+| SaaS Platform | Scale (Est. Revenue / Valuation) 📏 | Pricing Tier (Starting Rate) 💵 | Free Tier & Trial Limits ⏳ | Key Features & Core Focus 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Guidewire ClaimCenter](https://www.guidewire.com/)** | **~$1.48B Revenue** ($11.5B Market Cap) 🏢 | Enterprise Subscription (Custom, typically starting $100k+/yr for tier-1 carriers) 💰 | No free tier; demo & custom sandbox sandbox provided upon enterprise inquiry 🚫 | 🏆 Industry standard for P&C claims lifecycle, automated FNOL, fraud scoring, and vendor management. |
+| **[Duck Creek Claims](https://www.duckcreek.com/)** | **~$2.6B Valuation** (Acquired by Vista Equity) 🏢 | Enterprise Subscription (Custom quote based on DWP / claims volume) 💰 | No free tier; guided interactive demo & enterprise sandbox on request 🚫 | ⚡ Low-code, configuration-driven P&C claims intake, investigation, and settlement workflows. |
+| **[Symbility](https://www.symbilitysolutions.com/)** | **~$1.8B Valuation** (Part of CoreLogic / Stone Point) 🏢 | Per-User License + Usage-Based Valuation Fees (Custom contract) 💰 | No free tier; tailored product demonstrations for carrier teams 🚫 | 🏠 Property & damage claims assessment, mobile field inspection tools, and repair estimating. |
+| **[Origami Risk](https://www.origamirisk.com/)** | **~$2.1B Valuation** (Spectrum Equity Backed) 🏢 | SaaS Subscription (Custom quote based on module selection) 💰 | No free tier; personalized sales demo & sandbox testing available 🚫 | 🛡️ Integrated RMIS, enterprise risk management, safety compliance, and casualty claims workflows. |
+| **[Mitchell / Enlyte](https://www.mitchell.com/)** | **~$1.0B Revenue** (Enlyte Parent Group) 🏢 | Enterprise Licensing & Per-Estimate Fees (Custom contract) 💰 | No free tier; enterprise demonstration & proof of concept available 🚫 | 🚗 Auto physical damage claims processing, repair shop workflow, and casualty medical claims auditing. |
+| **[Sapiens Claims](https://sapiens.com/)** | **~$510M Revenue** ($1.6B Market Cap) 🏢 | Core System Licensing (Custom quote by line of business) 💰 | No free tier; request-based executive demo & trial access 🚫 | 🌐 Multi-line claims management supporting P&C, workers' comp, and life insurance across global markets. |
+| **[Majesco Claims](https://majesco.com/)** | **~$250M Revenue** (Thoma Bravo Backed) 🏢 | Cloud SaaS Subscription (Custom quote per tier) 💰 | No free tier; carrier proof of concept & demo environment on demand 🚫 | ☁️ Cloud-native claims administration seamlessly integrated with Majesco P&C and L&A core suites. |
+| **[Snapsheet](https://www.snapsheetclaims.com/)** | **~$85M Revenue** (Privately Held) 🏢 | Usage-Based Fee per Claim File (Custom tier pricing) 💰 | No free tier; 14-to-30 day structured enterprise pilot / trial on request ⏳ | 📸 Virtual auto appraisal, automated claims workflow, digital communication, and virtual payments. |
+| **[OneShield](https://oneshield.com/)** | **~$65M Revenue** (Privately Held) 🏢 | SaaS License & Implementation Fee (Custom contract) 💰 | No free tier; scheduled carrier demonstration & evaluation environment 🚫 | ⚙️ Configurable claims administration, rules engine, and real-time decisioning for regional carriers & MGAs. |
+| **[One Inc ClaimsPay](https://www.oneincsystems.com/)** | **~$60M Revenue** (Privately Held) 🏢 | Transaction-Based Pricing (% + Per-Payout Fee) 💰 | No free tier; test sandbox access during implementation onboard 🚫 | 💳 Digital claims payout network supporting instant debit, ACH, Venmo, and direct vendor disbursements. |
+| **[Claimatic](https://claimatic.com/)** | **~$15M Revenue** (Privately Held) 🏢 | Monthly SaaS Fee per Active Adjuster (Custom tiering) 💰 | No free tier; live demo and historical claim data trial run 🚫 | 🧠 AI-driven intelligent claims routing, real-time adjuster geographic assignment, and workload balancing. |
+| **[FileHandler](https://www.filehandler.com/)** | **~$10M Revenue** (JW Software) 🏢 | SaaS Subscription / Annual License (Custom quote) 💰 | No free tier; customized live system demonstration on request 🚫 | 📁 Comprehensive claim file management, FNOL intake, check writing, and loss reporting for TPAs and self-insureds. |
+
+---
+
+## 💻 Open-Source Claims Systems & Projects
+
+Explore production-grade open-source tools, AI agent frameworks, and reference architectures for claims management. **Sorted by GitHub Stars (Descending)**. ⭐
+
+- **[openIMIS](https://github.com/openimis)** [![openIMIS Stars](https://img.shields.io/github/stars/openimis?style=social&color=white)](https://github.com/openimis/stargazers)  
+  🏥 **Digital Public Goods Certified Health Insurance Claims Platform**. Purpose-built for social health protection and health financing schemes. Features digital claims creation, submission, and automated adjudication with an **AI-assisted claim review module**. Interoperable with HL7 FHIR, DCI, OpenMRS, and DHIS2. *Deployed in 13+ countries serving 25.5M+ beneficiaries.* 🌍 (Open Source / MPL 2.0)
+
+- **[Openkoda](https://github.com/openkoda/openkoda)** [![Openkoda Stars](https://img.shields.io/github/stars/openkoda/openkoda?style=social&color=white)](https://github.com/openkoda/openkoda/stargazers)  
+  📦 **Open-Source Core Insurance Platform with Built-in Claims Module**. Built on Java, Spring Boot, and PostgreSQL. Includes dynamic data model builders, automated REST & GraphQL APIs, document generation, business process automation, visual dashboard builders, and multi-tenancy. Ideal for P&C insurers and MGAs. 🛠️ (MIT License)
+
+- **[Digital Claims Management System](https://github.com/nikithagottimukkula/Digital-Claims-Management-System)** [![Digital Claims Stars](https://img.shields.io/github/stars/nikithagottimukkula/Digital-Claims-Management-System?style=social&color=white)](https://github.com/nikithagottimukkula/Digital-Claims-Management-System/stargazers)  
+  ⚡ **Enterprise-Grade Cloud Claims Application**. Built with React + Spring Boot on AWS. Features secure claims intake, multi-step FNOL forms, AWS S3 document attachments, role-based workflows for adjusters and managers, SLA tracking, and audit logging. ☁️ (Open Source)
+
+- **[Insurance Analytics Platform](https://github.com/aathifpm/insurance-analytics)** [![Insurance Analytics Stars](https://img.shields.io/github/stars/aathifpm/insurance-analytics?style=social&color=white)](https://github.com/aathifpm/insurance-analytics/stargazers)  
+  📊 **Claims Analytics & Machine Learning Fraud Detection**. React 18 + Python Flask stack featuring claim tracking, document processing, supervisor approval queues, and **Scikit-learn ML models for automated fraud risk scoring**. 🔍 (MIT License)
+
+- **[MediPolicy_IQ](https://github.com/ganesh2005-G/MediPolicy_IQ)** [![MediPolicy IQ Stars](https://img.shields.io/github/stars/ganesh2005-G/MediPolicy_IQ?style=social&color=white)](https://github.com/ganesh2005-G/MediPolicy_IQ/stargazers)  
+  🧠 **AI-Powered Health Insurance Claims Adjudication Intelligence**. Complete claims automation featuring OCR invoice/prescription extraction, ICD-10 / CPT medical code validation, dynamic Coordination of Benefits (COB), policy rule evaluation, risk scoring (0-100), and RAG policy Q&A assistant. Built with FastAPI + Streamlit. 🚀 (MIT License)
+
+- **[ClaimSphere AI](https://github.com/palsure/claimsphere-ai)** [![ClaimSphere Stars](https://img.shields.io/github/stars/palsure/claimsphere-ai?style=social&color=white)](https://github.com/palsure/claimsphere-ai/stargazers)  
+  🤖 **Multi-Agent AI Claims Processing Engine**. Powered by CAMEL-AI agent framework. Automates document verification, duplicate claim detection, PaddleOCR text extraction, ERNIE 5.0 Thinking API integration, and auto-approval workflows. 🛡️ (Open Source)
+
+- **[Insurance Agentic Mesh](https://github.com/vishalmysore/insuranceagenticmesh)** [![Agentic Mesh Stars](https://img.shields.io/github/stars/vishalmysore/insuranceagenticmesh?style=social&color=white)](https://github.com/vishalmysore/insuranceagenticmesh/stargazers)  
+  🌐 **Java-Based AI Agent Mesh for Claims & Insurance**. Features a standalone **Claims Processing Server** (port 7872) with MCP & A2A protocol support for claim submission, status querying, automated approval/rejection, and digital payouts. Built on Spring Boot 3.2.4. ⚙️ (Open Source)
+
+- **[Vehicle Insurance Claim Workflow System](https://github.com/NotMakerWebSite/loIcMUBBjzoR)** [![Vehicle Claim Stars](https://img.shields.io/github/stars/NotMakerWebSite/loIcMUBBjzoR?style=social&color=white)](https://github.com/NotMakerWebSite/loIcMUBBjzoR/stargazers)  
+  🚘 **Auto Insurance Claims Processing & Field Survey System**. Full-stack solution (Java/Spring Boot + Vue + MySQL) with roles for insured clients, accident field investigators, and claims managers. Covers accident reporting, site surveys, damage assessment, and payout approvals. 📝 (Open Source)
+
+---
+
+## 💡 Custom Claims Architecture Framework
+
+When building a modern, self-hosted, or hybrid claims management system:
+
+```mermaid
+flowchart LR
+    A["📥 FNOL Intake (Web / Mobile / API)"] --> B["🤖 AI Extraction & Fraud Scoring (ClaimSphere / MediPolicy_IQ)"]
+    B --> C["⚙️ Core Claims Engine (Openkoda / openIMIS)"]
+    C --> D["📊 Analytics & SLA Tracking (Insurance Analytics)"]
+    C --> E["💳 Digital Payout (One Inc / Payment Gateway)"]
+```
+
+1. **Core Platform**: Use **Openkoda** for P&C / General Claims core administration or **openIMIS** for Health Insurance management.
+2. **AI & Fraud Automation**: Integrate **ClaimSphere AI** or **MediPolicy_IQ** for intelligent OCR document parsing, medical coding checks, and risk scoring.
+3. **Agentic Workflows**: Deploy **Insurance Agentic Mesh** for autonomous claims routing, adjuster assignment, and status updates.
+4. **Data Layer**: Deploy on **PostgreSQL** with **Docker** / **AWS S3** containerization.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help us keep this ecosystem complete and up to date:
+
+1. **Fork** this repository.
+2. Add your project or SaaS tool to `README.md` adhering to the table format.
+3. Provide accurate company scale, pricing detail, open-source badges, and official links.
+4. Submit a **Pull Request** with a brief overview.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful, please consider supporting the project! 🌟
+
+- **Star this repo**: Click the ⭐ star button at the top right of this page.
+- **Share**: Spread the word to fellow InsurTech developers, claims adjusters, and insurance engineers.
+- **Sponsor**: Support ongoing open-source curation and development via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007). ☕
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated index** for informational and educational purposes. It does not constitute commercial endorsement.
+- Claims management systems process sensitive Personal Identifiable Information (PII) and Protected Health Information (PHI). Always ensure strict compliance with HIPAA, GDPR, PCI-DSS, and local insurance regulatory standards.
+- **Open-Source Reality**: While open-source frameworks provide robust foundational building blocks (e.g., Openkoda, openIMIS), full end-to-end enterprise claims operations (regulatory reporting, complex reinsurance, carrier integrations) typically require custom engineering or enterprise SaaS solutions.
+
+---
+
+## 📈 Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Claims-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Claims-Management&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Built for Claims Managers, InsurTech Developers, Adjusters, and MGA Operators. 🌟</b><br>
+  <i>Promoting open, transparent, and intelligent claims management technology.</i>
+</p>
